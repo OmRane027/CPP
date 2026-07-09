@@ -1,0 +1,12 @@
+#include <stdio.h>
+void hw();
+
+ int main(){
+ 	hw();
+ 	return 0;
+ 
+ }
+ 
+ void hw(){
+ 	printf("hello world");
+ }
