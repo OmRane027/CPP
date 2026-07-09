@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	printf("Hiii !");
+	printf("\n\t My name is Om Kamlakar Rane and My patner is Piyush Parshuram Sarnekar.\n Today we are going to say few words about Dbatu.");
+    printf("\n Dbatu is one of the top university in maharashtra.");
+    printf("\n It provide good education and practical knowledge of real life work.");
+    printf("\n Here Teachers are very friendly and motivative.");
+    printf("\n:-0");
+    return 0;
+}
