@@ -1,0 +1,18 @@
+# include <stdio.h> 
+int main ()
+{
+	int amount,note1000,note500,note100;
+	printf("enter amount:");
+	scanf("%D",& amount);
+	note 1000=amount/1000;
+	amount=amount%1000;
+	note 500=amount/500;
+	amount=amount%500;
+	note 100=amount/100;
+	amount=amount%100;
+	printf("1000 notes = %d\n",note 1000);
+	printf("500 notes = %d\n",note 500);
+	printf("100 notes = %d\n",note 100);
+	return 0;
+	
+}
