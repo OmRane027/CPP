@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	
+	int num1,num2,area,perimeter;
+	printf("enter number1 :\t");
+	scanf ("%d", & num1);
+    printf("enter number2 :\t");
+	scanf ("%d", & num2);  
+	 area = num1 * num2;
+	printf("area of %d & %d is \t %d \n",num1,num2,area);
+	 perimeter = 2*(num1+num2);
+	printf("perimeter of %d & %d is \t %d" ,num1,num2,perimeter);
+	return 0;
+}
