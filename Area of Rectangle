@@ -1,0 +1,14 @@
+# include <stdio.h> 
+int main ()
+{
+ int lenght,width,area,perimeter;
+	printf("enter length");
+	scanf("%f",& lenght);
+	printf("enter width");
+	scanf("%f",& width);
+	area=lenght*width;
+	perimeter=2*(lenght+width);
+	printf("area of rectangle = %f\n",area);
+	printf("perimeter of rectangle = %f\n",perimeter);
+	return 0;
+}
