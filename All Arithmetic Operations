@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+	int num1, num2, sum_1, sub_2, mul, div, mod;
+	printf("Enter First number:\t"); //first no.
+	scanf("%d",&num1);
+	
+	printf("Enter Second number:\t"); //second no.
+	scanf("%d",&num2);
+	
+	sum_1=num1+num2;
+	printf("The addition of %d and %d is: %d",num1, num2,sum_1); //add
+	
+	sub_2=num1-num2;
+	printf("\nThe subtraction of %d and %d is: %d",num1,num2,sub_2); //sub
+	
+	mul=num1*num2;
+	printf("\nThe multiplication of %d and %d is: %d",num1, num2,mul); //multiply
+	
+	div=num1/num2;
+	printf("\nThe Division of %d and %d is: %d",num1, num2,div); //div
+	
+	mod=num1%num2;
+	printf("\nThe Averageof %d and %d is: %d",num1,num2,mod); //modulus
+
+	return 0;
+}
