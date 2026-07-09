@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main (){
+	int A[6], B[6], C[6];
+	int i ;
+	
+	for(i=0;i<6;i++){  //1ST INDEX
+	
+	printf("enter value of INDEX A at %d:\t",i);
+	scanf("%d",&A[i]);
+	
+	}
+	printf("\n");
+	for(i=0;i<6;i++){ //2ND INDEX
+	
+		printf("enter value of INDEX B at %d:\t",i);
+	scanf("%d",&B[i]);
+	
+	}
+
+
+
+      for(i=0;i<6;i++){ // ADD. OF INDEX
+      	
+      	C[i] = B[i]+A[i];
+       printf("%d\t",C[i]);
+       
+	  }
+       
+       
+       return 0;
+}
