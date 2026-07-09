@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int i;
+	int a[4]={1,2,3,4};
+	int b[4]={4,3,2,1};
+	int c[4];
+	
+	for (i=0;i<4;i++){
+		c[i]=a[i]+b[i];
+	}
+	printf("sum of arrays:\n");
+	for(int i=0;i<4;i++){
+	printf("%d",c[i]);
+	}
+	return 0;
+}
