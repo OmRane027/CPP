@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	int i, j, k, rows1;
+	printf("enter number of rows and colomns  you want:\t");
+	scanf("%d",&rows1);
+	
+	for(i=1;i<=rows1;i++){ //no. of rows
+		for(j=1;j<=(rows1-i);j++){ //no. of space to print
+			printf(" \t");
+		}
+	for(k=1;k<=i;k++){ // print * loop
+			printf("*\t");
+			}
+		printf("\n");
+	}
+	return 0;
+}
